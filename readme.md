@@ -11,3 +11,9 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 ## First setup
 
 **[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+
+1. create a folder where you want the repo downloaded
+2. open it in terminal and type `git clone https://github.com/ObelusFamily/Anythink-Market-5gp8a.git`
+3. if you don't have it already, download docker using homebrew using `brew cask install docker`
+4. make sure docker is running and then type `docker-compose up`
+5. navigate to `http://localhost:3000/api/ping` to check it has worked
